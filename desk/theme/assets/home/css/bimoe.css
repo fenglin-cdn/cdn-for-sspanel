@@ -1,0 +1,185 @@
+/*!
+Author: Bimoe
+Author URI: http://9499460.com/
+*/
+body {
+  	font-family: "Noto Sans","Helvetica Neue",Helvetica,Arial,CustomFont,"Microsoft YaHei UI","Microsoft YaHei","Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	font-size: 14px;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+}
+
+.bimoe-wrap {
+    max-width: 440px;
+    background: hsla(0,0%,100%,.95);
+    box-shadow: 0 4px 16px rgba(0,0,0,.5);
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    table-layout: fixed;
+}
+
+.bimoe-inner {
+    display: table-cell;
+    padding: 50px 30px;
+    vertical-align: top;
+}
+
+#wrap-reset {
+    padding-top: 15%;
+}
+
+#wrap-tx {
+    padding-top: 10%;
+}
+
+@media (max-width: 767px) {
+    #wrap-login,#wrap-register,#wrap-reset {
+      padding-top: 10%;
+    }
+    #wrap-tx {
+        padding-top: 10%;
+    }
+}
+
+.bimoe-switch {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bimoe-form-title {
+    margin: 0 0 20px;
+    border: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    background: none;
+    white-space: nowrap;
+}
+
+.bimoe-form .bimoe-form-group {
+    position: relative;
+}
+
+.bimoe-form-group {
+    margin-bottom: 15px;
+}
+
+.bimoe-form .bimoe-form-input {
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding: 10px 10px 10px 34px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.bimoe-form .bimoe-form-group .fas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.bimoe-form .btn-login {
+    font-size: 12px;
+    color: #fff;
+    background: #3ca5f6;
+    border: 0;
+}
+
+.bimoe-form .bimoe-form-group label {
+    margin: 0;
+    width: 100%;
+}
+
+.bimoe-yx {
+	float: left;
+}
+
+.bimoe-lx {
+	float: right;
+	width: 40%;
+
+}
+
+.label-yx {
+    margin: 0;
+    width: 100% !important;
+}
+
+.bimoe-select {
+    font-size: 14px;
+    width: 100%;
+    background-color: white;
+	position: relative;
+	height: 37px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+input[type='checkbox']{
+	display: none;
+}
+label{
+	display: inline-block;
+}
+label input[type='checkbox']+span{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(../images/checkbox.png)no-repeat 0 0 /24px 24px;
+}
+label input[type='checkbox']:checked+span{
+	background: url(../images/checkbox_checked.png)no-repeat 0 0 /24px 24px;
+}
+
+.bimoe-checkbox {
+	padding-left: 0 !important;
+}
+
+.bimoe-check {
+	position: relative;
+	top:-2px;
+	float: left;
+}
+
+.geetest_holder.geetest_wind {
+    width: 100% !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* Login */
+#wrap-login {
+    padding-top: 10%;
+}
+
+/* Register */
+#wrap-register {
+    padding-top: 5%;
+}
+
+.email_verify {
+  top: 4px;
+  right: 5px;
+  position: absolute;
+}
